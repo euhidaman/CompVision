@@ -1,7 +1,9 @@
 
 import os
 import vision
+# pip install msrest
 from msrest.authentication import CognitiveServicesCredentials
+# pip install azure-cognitiveservices-vision-computervision
 from azure.cognitiveservices.vision.computervision import ComputerVisionClient
 import matplotlib.pyplot as plt
 

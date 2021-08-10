@@ -2,10 +2,10 @@
 import os
 import Desc
 # pip install msrest
-from msrest.authentication import CognitiveServicesCredentials   
+from msrest.authentication import CognitiveServicesCredentials
 # pip install azure-cognitiveservices-vision-computervision
 from azure.cognitiveservices.vision.computervision import ComputerVisionClient
-import matplotlib.pyplot as plt
+
 
 cog_key = 'b73d013ef8484ba09c329494e968f894'
 cog_endpoint = 'https://cotr.cognitiveservices.azure.com/'

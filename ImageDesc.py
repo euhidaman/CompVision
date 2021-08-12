@@ -7,8 +7,8 @@ from msrest.authentication import CognitiveServicesCredentials
 from azure.cognitiveservices.vision.computervision import ComputerVisionClient
 
 
-cog_key = 'b73d013ef8484ba09c329494e968f894'
-cog_endpoint = 'https://cotr.cognitiveservices.azure.com/'
+cog_key = ''
+cog_endpoint = ''
 
 # Get a client for the computer vision service
 computervision_client = ComputerVisionClient(
